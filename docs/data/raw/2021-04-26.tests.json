@@ -4,93 +4,66 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Active cases^": "249",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "25",
-            "Under investigation last 24 hours": "2",
-            "Locally acquired last 7 days": "3",
-            "Overseas acquired last 7 days": "135",
-            "Under investigation last 7 days": "8"
+            "Tests in last 7 days": "229,076",
+            "Tests in last 7 days per 100,000 population": "903",
+            "Total tests": "16,615,179",
+            "Total positive tests (%)": "0.2%"
         },
         {
             "Jurisdiction": "ACT",
-            "Active cases^": "0",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "0",
-            "Under investigation last 7 days": "0"
+            "Tests in last 7 days": "2,348",
+            "Tests in last 7 days per 100,000 population": "551",
+            "Total tests": "198,154",
+            "Total positive tests (%)": "0.1%"
         },
         {
             "Jurisdiction": "NSW",
-            "Active cases^": "95",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "8",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "44",
-            "Under investigation last 7 days": "0"
+            "Tests in last 7 days": "61,667",
+            "Tests in last 7 days per 100,000 population": "763",
+            "Total tests": "5,601,641",
+            "Total positive tests (%)": "0.1%"
         },
         {
             "Jurisdiction": "NT",
-            "Active cases^": "53",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "4",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "41",
-            "Under investigation last 7 days": "0"
+            "Tests in last 7 days": "6,435",
+            "Tests in last 7 days per 100,000 population": "2,615",
+            "Total tests": "173,511",
+            "Total positive tests (%)": "0.1%"
         },
         {
             "Jurisdiction": "QLD",
-            "Active cases^": "17",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "2",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "10",
-            "Under investigation last 7 days": "2"
+            "Tests in last 7 days": "33,407",
+            "Tests in last 7 days per 100,000 population": "656",
+            "Total tests": "2,437,183",
+            "Total positive tests (%)": "0.1%"
         },
         {
             "Jurisdiction": "SA",
-            "Active cases^": "32",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "11",
-            "Under investigation last 24 hours": "2",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "21",
-            "Under investigation last 7 days": "6"
+            "Tests in last 7 days": "21,345",
+            "Tests in last 7 days per 100,000 population": "1,218",
+            "Total tests": "1,253,595",
+            "Total positive tests (%)": "0.1%"
         },
         {
             "Jurisdiction": "TAS",
-            "Active cases^": "0",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "0",
-            "Under investigation last 7 days": "0"
+            "Tests in last 7 days": "3,925",
+            "Tests in last 7 days per 100,000 population": "734",
+            "Total tests": "208,752",
+            "Total positive tests (%)": "0.1%"
         },
         {
             "Jurisdiction": "VIC",
-            "Active cases^": "23",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "1",
-            "Overseas acquired last 7 days": "10",
-            "Under investigation last 7 days": "0"
+            "Tests in last 7 days": "89,532",
+            "Tests in last 7 days per 100,000 population": "1,358",
+            "Total tests": "5,743,233",
+            "Total positive tests (%)": "0.4%"
         },
         {
             "Jurisdiction": "WA",
-            "Active cases^": "29",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "2",
-            "Overseas acquired last 7 days": "9",
-            "Under investigation last 7 days": "0"
+            "Tests in last 7 days": "10,417",
+            "Tests in last 7 days per 100,000 population": "397",
+            "Total tests": "999,110",
+            "Total positive tests (%)": "0.1%"
         }
     ]
 }

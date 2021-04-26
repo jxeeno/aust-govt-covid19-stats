@@ -4,93 +4,93 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Active cases^": "249",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "25",
-            "Under investigation last 24 hours": "2",
-            "Locally acquired last 7 days": "3",
-            "Overseas acquired last 7 days": "135",
-            "Under investigation last 7 days": "8"
+            "Overseas": "7,298",
+            "Locally acquired - contact of confirmed case": "17,958",
+            "Locally acquired - unknown contact": "4,283",
+            "Locally acquired - interstate travel": "154",
+            "Under investigation": "2",
+            "Total cases": "29,695",
+            "Total deaths": "910"
         },
         {
             "Jurisdiction": "ACT",
-            "Active cases^": "0",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "0",
-            "Under investigation last 7 days": "0"
+            "Overseas": "94",
+            "Locally acquired - contact of confirmed case": "25",
+            "Locally acquired - unknown contact": "1",
+            "Locally acquired - interstate travel": "3",
+            "Under investigation": "0",
+            "Total cases": "123",
+            "Total deaths": "3"
         },
         {
             "Jurisdiction": "NSW",
-            "Active cases^": "95",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "8",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "44",
-            "Under investigation last 7 days": "0"
+            "Overseas": "3,245",
+            "Locally acquired - contact of confirmed case": "1,643",
+            "Locally acquired - unknown contact": "450",
+            "Locally acquired - interstate travel": "90",
+            "Under investigation": "0",
+            "Total cases": "5,428",
+            "Total deaths": "54"
         },
         {
             "Jurisdiction": "NT",
-            "Active cases^": "53",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "4",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "41",
-            "Under investigation last 7 days": "0"
+            "Overseas": "160",
+            "Locally acquired - contact of confirmed case": "2",
+            "Locally acquired - unknown contact": "0",
+            "Locally acquired - interstate travel": "2",
+            "Under investigation": "0",
+            "Total cases": "164",
+            "Total deaths": "0"
         },
         {
             "Jurisdiction": "QLD",
-            "Active cases^": "17",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "2",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "10",
-            "Under investigation last 7 days": "2"
+            "Overseas": "1,204",
+            "Locally acquired - contact of confirmed case": "264",
+            "Locally acquired - unknown contact": "41",
+            "Locally acquired - interstate travel": "23",
+            "Under investigation": "0",
+            "Total cases": "1,532",
+            "Total deaths": "7"
         },
         {
             "Jurisdiction": "SA",
-            "Active cases^": "32",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "11",
-            "Under investigation last 24 hours": "2",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "21",
-            "Under investigation last 7 days": "6"
+            "Overseas": "530",
+            "Locally acquired - contact of confirmed case": "152",
+            "Locally acquired - unknown contact": "9",
+            "Locally acquired - interstate travel": "26",
+            "Under investigation": "2",
+            "Total cases": "719",
+            "Total deaths": "4"
         },
         {
             "Jurisdiction": "TAS",
-            "Active cases^": "0",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "0",
-            "Under investigation last 7 days": "0"
+            "Overseas": "85",
+            "Locally acquired - contact of confirmed case": "141",
+            "Locally acquired - unknown contact": "5",
+            "Locally acquired - interstate travel": "3",
+            "Under investigation": "0",
+            "Total cases": "234",
+            "Total deaths": "13"
         },
         {
             "Jurisdiction": "VIC",
-            "Active cases^": "23",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "1",
-            "Overseas acquired last 7 days": "10",
-            "Under investigation last 7 days": "0"
+            "Overseas": "1,098",
+            "Locally acquired - contact of confirmed case": "15,648",
+            "Locally acquired - unknown contact": "3,763",
+            "Locally acquired - interstate travel": "0",
+            "Under investigation": "0",
+            "Total cases": "20,509",
+            "Total deaths": "820"
         },
         {
             "Jurisdiction": "WA",
-            "Active cases^": "29",
-            "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "2",
-            "Overseas acquired last 7 days": "9",
-            "Under investigation last 7 days": "0"
+            "Overseas": "882",
+            "Locally acquired - contact of confirmed case": "83",
+            "Locally acquired - unknown contact": "14",
+            "Locally acquired - interstate travel": "7",
+            "Under investigation": "0",
+            "Total cases": "986",
+            "Total deaths": "9"
         }
     ]
 }

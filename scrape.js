@@ -59,7 +59,7 @@ try {
 
         const extractWidget = async (widgetId, scrapeKey) => {
             await page.waitForSelector(`#widget${widgetId}`);
-            const html = await page.$eval('#KdmpZ', element => element.innerHTML);
+            const html = await page.$eval(`#${widgetId}`, element => element.innerHTML);
             exportTable(html, scrapeKey);
         };
 

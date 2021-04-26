@@ -1,7 +1,18 @@
 const puppeteer = require('puppeteer')
 try {
     (async () => {
-        const browser = await puppeteer.launch()
+        const browser = await puppeteer.launch({
+            headless: true,
+            args: [
+                '--no-sandbox',
+                '--single-process',
+                '--no-zygote',
+                '--disable-dev-shm-usage',
+                '--disable-gpu',
+                '--disable-software-rasterizer',
+                '--disable-features=AudioServiceOutOfProcess'
+            ]
+        })
         const page = await browser.newPage()
         await page.setViewport({ width: 1280, height: 800 })
         await page.goto('https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers')

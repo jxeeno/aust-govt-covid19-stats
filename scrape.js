@@ -1,7 +1,6 @@
 const puppeteer = require('puppeteer')
 const cheerio = require('cheerio')
 const moment = require('moment')
-const { format } = require('@fast-csv/format');
 const fs = require('fs');
 const path = require('path');
 const lodash = require('lodash');

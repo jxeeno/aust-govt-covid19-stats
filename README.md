@@ -40,7 +40,7 @@ node scrape.js
 
 ### Why did you build this?
 
-Because for some reason, our Health department reckons the best way to provide statistical data is through an embedded data visualisation graphic instead of a data file.
+Because for some reason, our Health department reckons the best way to provide statistical data is through an embedded data visualisation graphic instead of a data file.  Ok, this doesn't actually sound too bad at first -- but the data isn't easily scrapable because it it's dynamically loaded through WebSockets 🙃.
 
 This data should be available in machine readable formats for transparency and to enable ease of access.
 

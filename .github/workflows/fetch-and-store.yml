@@ -23,7 +23,7 @@ jobs:
       with:
         node-version: '12'
     - name: Scrape
-      timeout-mins: 3
+      timeout-minutes: 3
       run: |
         yarn
         node scrape.js

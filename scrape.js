@@ -40,9 +40,10 @@ const exportTable = (html, type) => {
     return data;
 }
 
-try {
-    (async () => {
-        const browser = await puppeteer.launch({
+(async () => {
+    let browser;
+    try {
+        browser = await puppeteer.launch({
             headless: true,
             args: [
                 '--no-sandbox',
@@ -75,8 +76,13 @@ try {
         }
 
         await browser.close()
-    })()
-} catch (err) {
-    console.error(err);
-    process.exit();
-}
+    } catch (err) {
+        console.error(err);
+
+        if(browser){
+            browser.exit();
+        }
+        
+        process.exit();
+    }
+})()

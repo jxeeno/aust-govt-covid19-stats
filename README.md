@@ -1,4 +1,4 @@
-# Australian COVID-19 Stats Data
+# Australian COVID-19 Case & Test Stats Data
 
 This repository is a mess of code which:
 

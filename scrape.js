@@ -7,6 +7,7 @@ const path = require('path');
 const lodash = require('lodash');
 
 const DATA_RAW_JSON_PATH = 'docs/data/raw/';
+const DATA_RAW_HTML_PATH = 'docs/data/rawhtml/';
 
 const exportTable = (html, type) => {
     const $ = cheerio.load(html);
@@ -60,12 +61,18 @@ try {
         const extractWidget = async (widgetId, scrapeKey) => {
             await page.waitForSelector(`#widget${widgetId}`);
             const html = await page.$eval(`#${widgetId}`, element => element.innerHTML);
-            exportTable(html, scrapeKey);
+            return exportTable(html, scrapeKey);
         };
 
-        await extractWidget('KdmpZ', 'cases');
+        const d = await extractWidget('KdmpZ', 'cases');
         await extractWidget('zfDpnUy', 'tests');
         await extractWidget('gjjZnj', 'source');
+
+        const html = await page.content();
+        
+        if(!fs.existsSync(`${d.asAtDate}.html`)){
+            fs.writeFileSync(path.join(DATA_RAW_HTML_PATH, `${d.asAtDate}.html`), html);
+        }
 
         await browser.close()
     })()

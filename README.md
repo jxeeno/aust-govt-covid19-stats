@@ -6,6 +6,8 @@ This repository is a mess of code which:
 2. Converts it into machine-readable statistics (JSON and CSV files)
 3. Publishes data files via Github Actions and Github Pages
 
+Data scraping commenced on 26th April 2021.  Scraped data is not available for prior this period.
+
 **Looking for COVID-19 Vaccination Data?** That data is in a separate repository: https://github.com/jxeeno/aust-govt-covid19-vaccine-pdf
 
 ## Direct access to data

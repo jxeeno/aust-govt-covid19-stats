@@ -70,9 +70,9 @@ const exportTable = (html, type) => {
         await extractWidget('gjjZnj', 'source');
 
         const html = await page.content();
-        
-        if(!fs.existsSync(`${d.asAtDate}.html`)){
-            fs.writeFileSync(path.join(DATA_RAW_HTML_PATH, `${d.asAtDate}.html`), html);
+        const htmlPath = path.join(DATA_RAW_HTML_PATH, `${d.asAtDate}.html`);
+        if(!fs.existsSync(htmlPath)){
+            fs.writeFileSync(htmlPath, html);
         }
 
         await browser.close()

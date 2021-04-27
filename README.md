@@ -19,7 +19,13 @@ The data is also available at the following locations:
 
 **Important note about data quality:**  This data is provided as-is. I'm not guaranteeing the timeliness or accuracy of any data provided above.  Use at your own risk.
 
-The data files above are usually updated daily.  Github Actions is configured to scrape and extract data from the Department of Health website every 15 minutes and published via Github Pages.  The data is also available via this git repo in under `docs/data`.
+The data files above are usually updated daily.  Github Actions is configured to scrape and extract data from the Department of Health website when the department usually updates the data at 8pm.
+
+The action will trigger at: 
+* ~8pm AEST (8:00pm, 8:02pm, 8:05pm, 8:10pm)
+* and hourly at 13 past the hour thereafter
+
+The scrape data is then published via Github Pages.  The data is also available via this git repo in under `docs/data`.
 
 Documentation for these data files will come in due course.
 

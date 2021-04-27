@@ -1,8 +1,8 @@
 on:
   schedule:
-    - cron: '0,2,5,10 10 * * *' # runs at 8:00pm, 8:02pm, 8:05pm, 8:15pm (AEST)
+    - cron: '0,2,5,10 10 * * *' # runs at 8:00pm, 8:02pm, 8:05pm, 8:10pm (AEST)
     - cron: '13 * * * *' # runs hourly thereafter at 13 past the hour
-    # - cron: '0,2,5,10 9 * * *' # runs at 8:00pm, 8:02pm, 8:05pm, 8:15pm (AEDT)
+    # - cron: '0,2,5,10 9 * * *' # runs at 8:00pm, 8:02pm, 8:05pm, 8:10pm (AEDT)
   push:
     branches:
       - master

@@ -67,6 +67,11 @@ const exportTable = (html, type) => {
         const d = await extractWidget('KdmpZ', 'cases');
         await extractWidget('zfDpnUy', 'tests');
         await extractWidget('gjjZnj', 'source');
+        await extractWidget('PSWhPA', 'casesage');
+        await extractWidget('uJauhW', 'deathsage');
+        await extractWidget('GJSFMHS', 'caseshospital');
+        await extractWidget('SfYPx', 'agedcareresidential');
+        await extractWidget('ECq', 'agedcareinhome');
 
         const html = await page.content();
         const htmlPath = path.join(DATA_RAW_HTML_PATH, `${d.asAtDate}.html`);

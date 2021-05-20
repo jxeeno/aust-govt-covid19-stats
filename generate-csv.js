@@ -30,13 +30,24 @@ const SUFFIX_MAPPING = {
     "Locally acquired - interstate travel": "SOURCE_LOCAL_INTERSTATE_TRAVEL",
     "Under investigation": "SOURCE_UNDER_INVESTIGATION",
     "Total cases": "CASES_TOTAL",
-    "Total deaths": "DEATHS_TOTAL"
+    "Total deaths": "DEATHS_TOTAL",
+    
+    "Not in ICU": "CASES_HOSPITAL_NOT_ICU",
+    "ICU": "CASES_HOSPITAL_ICU",
+    
+    "Male": "M",
+    "Female": "F",
+
+    "Active": "ACTIVE",
+    "Recovered": "RECOVERED",
+    "Deaths": "DEATHS"
 }
 
 const generateCsv = async () => {
     const files = fs.readdirSync(RAW_JSON_DATA_PATH).filter(p => p.endsWith(".json"));
 
     const byDate = {};
+    const keys = ['DATE'];
 
     for(const file of files){
         const data = JSON.parse(fs.readFileSync(path.join(RAW_JSON_DATA_PATH, file)));
@@ -51,17 +62,35 @@ const generateCsv = async () => {
 
         for(const entry of data.entries){
             for(let k in entry){
-                if(SUFFIX_MAPPING[k]){
-                    const key = `${entry.Jurisdiction.toUpperCase().slice(0, 3)}_${SUFFIX_MAPPING[k]}`;
-                    const value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
+                let key, value;
+                if(data.type === "agedcareinhome" && SUFFIX_MAPPING[k]){
+                    key = `${entry.Jurisdiction.toUpperCase().slice(0, 3)}_AGED_CARE_IN_HOME_${SUFFIX_MAPPING[k]}`;
+                    value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
+                }else if(data.type === "agedcareresidential" && SUFFIX_MAPPING[k]){
+                    key = `${entry.Jurisdiction.toUpperCase().slice(0, 3)}_AGED_CARE_RESIDENTIAL_${SUFFIX_MAPPING[k]}`;
+                    value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
+                }else if(['tests', 'source', 'cases', 'caseshospital'].includes(data.type) && SUFFIX_MAPPING[k] && entry.Jurisdiction){
+                    key = `${entry.Jurisdiction.toUpperCase().slice(0, 3)}_${SUFFIX_MAPPING[k]}`;
+                    value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
+                }else if(data.type === "casessage" && SUFFIX_MAPPING[k] && entry["Age Group"]){
+                    key = `AUS_CASES_AGE_${entry["Age Group"].toUpperCase().replace("-","_")}_SEX_${SUFFIX_MAPPING[k]}`;
+                    value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
+                }else if(data.type === "deathsage" && SUFFIX_MAPPING[k] && entry["Age Group"]){
+                    key = `AUS_DEATHS_AGE_${entry["Age Group"].toUpperCase().replace("-","_")}_SEX_${SUFFIX_MAPPING[k]}`;
+                    value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
+                }
 
+                if(key){
                     byDate[data.asAtDate][key] = value;
+                    if(!keys.includes(key)){
+                        keys.push(key);
+                    }
                 }
             }
         }
     }
 
-    const stream = format({ headers: true });
+    const stream = format({ headers: keys });
     stream.pipe(fs.createWriteStream(DATA_CSV_PATH));
 
     const byDateArray = Object.values(byDate);

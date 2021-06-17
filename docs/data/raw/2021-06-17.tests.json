@@ -1,0 +1,69 @@
+{
+    "asAtDate": "2021-06-17",
+    "type": "tests",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Tests in last 7 days": "355,090",
+            "Tests in last 7 days per 100,000 population": "1,400",
+            "Total tests": "19,512,699",
+            "Total positive tests (%)": "0.2%"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Tests in last 7 days": "3,136",
+            "Tests in last 7 days per 100,000 population": "736",
+            "Total tests": "223,993",
+            "Total positive tests (%)": "0.1%"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Tests in last 7 days": "106,451",
+            "Tests in last 7 days per 100,000 population": "1,317",
+            "Total tests": "6,355,804",
+            "Total positive tests (%)": "0.1%"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Tests in last 7 days": "7,498",
+            "Tests in last 7 days per 100,000 population": "3,047",
+            "Total tests": "227,656",
+            "Total positive tests (%)": "0.1%"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Tests in last 7 days": "54,633",
+            "Tests in last 7 days per 100,000 population": "1,073",
+            "Total tests": "2,769,272",
+            "Total positive tests (%)": "0.1%"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Tests in last 7 days": "29,276",
+            "Tests in last 7 days per 100,000 population": "1,671",
+            "Total tests": "1,473,704",
+            "Total positive tests (%)": "0.1%"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Tests in last 7 days": "4,905",
+            "Tests in last 7 days per 100,000 population": "918",
+            "Total tests": "246,494",
+            "Total positive tests (%)": "0.1%"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Tests in last 7 days": "124,988",
+            "Tests in last 7 days per 100,000 population": "1,896",
+            "Total tests": "6,963,720",
+            "Total positive tests (%)": "0.3%"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Tests in last 7 days": "24,203",
+            "Tests in last 7 days per 100,000 population": "923",
+            "Total tests": "1,252,056",
+            "Total positive tests (%)": "0.1%"
+        }
+    ]
+}

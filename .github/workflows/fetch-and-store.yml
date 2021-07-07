@@ -2,7 +2,6 @@ on:
   schedule:
     - cron: '0,2,5,10 10 * * *' # runs at 8:00pm, 8:02pm, 8:05pm, 8:10pm (AEST)
     - cron: '13 * * * *' # runs hourly thereafter at 13 past the hour
-    # - cron: '0,2,5,10 9 * * *' # runs at 8:00pm, 8:02pm, 8:05pm, 8:10pm (AEDT)
   push:
     branches:
       - master
@@ -20,8 +19,8 @@ jobs:
       with:
         node-version: '12'
     - name: Install packages
-    timeout-minutes: 3
-    run: |
+      timeout-minutes: 3
+      run: |
         yarn
     - name: Scrape and generate data
       timeout-minutes: 3

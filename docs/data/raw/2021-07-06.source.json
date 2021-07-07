@@ -4,12 +4,12 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Overseas": "7,934",
-            "Locally acquired - contact of confirmed case": "18,419",
-            "Locally acquired - unknown contact": "4,313",
+            "Overseas": "7934",
+            "Locally acquired - contact of confirmed case": "18419",
+            "Locally acquired - unknown contact": "4313",
             "Locally acquired - interstate travel": "159",
             "Under investigation": "7",
-            "Total cases": "30,832",
+            "Total cases": "30832",
             "Total deaths": "910"
         },
         {
@@ -24,12 +24,12 @@
         },
         {
             "Jurisdiction": "NSW",
-            "Overseas": "3,481",
-            "Locally acquired - contact of confirmed case": "1,951",
+            "Overseas": "3481",
+            "Locally acquired - contact of confirmed case": "1951",
             "Locally acquired - unknown contact": "474",
             "Locally acquired - interstate travel": "91",
             "Under investigation": "0",
-            "Total cases": "5,997",
+            "Total cases": "5997",
             "Total deaths": "54"
         },
         {
@@ -44,12 +44,12 @@
         },
         {
             "Jurisdiction": "QLD",
-            "Overseas": "1,364",
+            "Overseas": "1364",
             "Locally acquired - contact of confirmed case": "290",
             "Locally acquired - unknown contact": "42",
             "Locally acquired - interstate travel": "25",
             "Under investigation": "7",
-            "Total cases": "1,728",
+            "Total cases": "1728",
             "Total deaths": "7"
         },
         {
@@ -74,12 +74,12 @@
         },
         {
             "Jurisdiction": "VIC",
-            "Overseas": "1,197",
-            "Locally acquired - contact of confirmed case": "15,753",
-            "Locally acquired - unknown contact": "3,768",
+            "Overseas": "1197",
+            "Locally acquired - contact of confirmed case": "15753",
+            "Locally acquired - unknown contact": "3768",
             "Locally acquired - interstate travel": "0",
             "Under investigation": "0",
-            "Total cases": "20,718",
+            "Total cases": "20718",
             "Total deaths": "820"
         },
         {
@@ -89,7 +89,7 @@
             "Locally acquired - unknown contact": "14",
             "Locally acquired - interstate travel": "8",
             "Under investigation": "0",
-            "Total cases": "1,033",
+            "Total cases": "1033",
             "Total deaths": "9"
         }
     ]

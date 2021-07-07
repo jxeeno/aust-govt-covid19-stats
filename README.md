@@ -21,7 +21,7 @@ The data is also available at the following locations:
 
 The data files above are usually updated daily.  Github Actions is configured to scrape and extract data from the Department of Health website when the department usually updates the data at 8pm.
 
-The action will trigger at: 
+The action will trigger at:
 * ~8pm AEST (8:00pm, 8:02pm, 8:05pm, 8:10pm)
 * and hourly at 13 past the hour thereafter
 
@@ -42,13 +42,15 @@ git clone https://github.com/jxeeno/aust-govt-covid19-stats.git
 cd aust-govt-covid19-stats
 yarn # or: npm install
 node scrape.js
+node create-legacy-data.js
+node generate-csv.js
 ```
 
 ## Help
 
 ### Why did you build this?
 
-Because for some reason, our Health department reckons the best way to provide statistical data is through an embedded data visualisation graphic instead of a data file.  Ok, this doesn't actually sound too bad at first -- but the data isn't easily scrapable because it it's dynamically loaded through WebSockets 🙃.
+Because for some reason, our Health department reckons the best way to provide statistical data is through an embedded data visualisation graphic instead of a data file.  Ok, this doesn't actually sound too bad at first -- but the data isn't easily scrapable because it it's dynamically loaded through WebSockets 🙃, hence this repository.
 
 This data should be available in machine readable formats for transparency and to enable ease of access.
 
@@ -63,4 +65,3 @@ You can try and fix it and submit a PR.  Or raise an issue and I'll have a look 
 Yeah, it's spaghetti code because it's basically disposable code. I expect to need to rewrite this every few days.
 
 Having said that, you're welcome to raise a PR if you want to make it better! :)
-

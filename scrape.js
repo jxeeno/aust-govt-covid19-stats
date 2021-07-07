@@ -5,8 +5,8 @@ const fs = require('fs');
 const path = require('path');
 const lodash = require('lodash');
 
-const DATA_RAW_JSON_PATH = 'docs/data/raw-new/';
-const DATA_RAW_HTML_PATH = 'docs/data/rawhtml-new/';
+const DATA_RAW_JSON_PATH_NEW = 'docs/data/raw-new/';
+const DATA_RAW_HTML_PATH_NEW = 'docs/data/rawhtml-new/';
 const PAGE_URI = 'https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers';
 const QLIK_WS_PREFIX = 'wss://covid19-data.health.gov.au/app';
 
@@ -134,7 +134,7 @@ const getGraphHandles = async (docHandlerId, graphIds, ws) => {
 
 const getRawData = async (graphs, ws) => {
         return new Promise((resolve, reject) => {
-                let rawData = [];
+                let rawData = {};
 
                 // remove old event listeners
                 ws.removeAllListeners("message")
@@ -142,11 +142,8 @@ const getRawData = async (graphs, ws) => {
                 ws.on("message", data => {
                         data = JSON.parse(data);
                         let graphObject = data.result.qLayout[0].value;
-                        rawData.push(graphObject);
-                        if(rawData.length === graphs.length){
-                                // sort the data by title as the received order is arbitrary
-                                rawData = lodash.sortBy(rawData, 'title');
-
+                        rawData[graphObject.qInfo.qId] = graphObject;
+                        if(Object.keys(rawData).length === graphs.length){
                                 ws.terminate();
                                 resolve(rawData);
                         }
@@ -190,14 +187,18 @@ Promise.all([getDocId(), getGraphIdsAndPageContents()]).then(results => {
         GRAPHS = graphsWithHandleIds;
 })
 .then(() => getRawData(GRAPHS, WS_CONNECTION))
-.then(rawData => {
-        // stringify the data so we can write it to a file
-        rawData = JSON.stringify(rawData);
+.then(graphData => {
+        let data = {};
+        data.docId = DOC_ID;
+        data.lastModified = LAST_MODIFIED;
+        data.data = graphData;
+
+        rawData = JSON.stringify(data);
 
         let formattedDate = moment(LAST_MODIFIED).format('YYYY-MM-DD');
 
-        const rawDataPath = path.join(DATA_RAW_JSON_PATH, `${formattedDate}.json`);
-        const rawHTMLPath = path.join(DATA_RAW_HTML_PATH, `${formattedDate}.html`);
+        const rawDataPath = path.join(DATA_RAW_JSON_PATH_NEW, `${formattedDate}.json`);
+        const rawHTMLPath = path.join(DATA_RAW_HTML_PATH_NEW, `${formattedDate}.html`);
 
         if(!fs.existsSync(rawHTMLPath)){
             fs.writeFileSync(rawHTMLPath, RAW_HTML);

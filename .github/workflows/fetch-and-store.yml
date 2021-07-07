@@ -13,22 +13,21 @@ jobs:
   fetch:
     name: Fetch and store
     runs-on: ubuntu-latest
-    container: buildkite/puppeteer
     steps:
-    - name: Install other dependencies
-      run: |
-          apt update
-          apt install -y git
     - name: Checkout
       uses: actions/checkout@v2
     - uses: actions/setup-node@v2
       with:
         node-version: '12'
-    - name: Scrape
+    - name: Install packages
+    timeout-minutes: 3
+    run: |
+        yarn
+    - name: Scrape and generate data
       timeout-minutes: 3
       run: |
-        yarn
         node scrape.js
+        node create-legacy-data.js
         node generate-csv.js
     - name: Push data
       run: |

@@ -19,8 +19,8 @@ jobs:
       with:
         node-version: '12'
     - name: Install packages
-    timeout-minutes: 3
-    run: |
+      timeout-minutes: 3
+      run: |
         yarn
     - name: Scrape and generate data
       timeout-minutes: 3

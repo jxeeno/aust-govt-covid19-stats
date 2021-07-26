@@ -200,10 +200,15 @@ Promise.all([getDocId(), getGraphIdsAndPageContents()]).then(results => {
         const rawDataPath = path.join(DATA_RAW_JSON_PATH_NEW, `${formattedDate}.json`);
         const rawHTMLPath = path.join(DATA_RAW_HTML_PATH_NEW, `${formattedDate}.html`);
 
-        if(!fs.existsSync(rawHTMLPath)){
-            fs.writeFileSync(rawHTMLPath, RAW_HTML);
-        }
-        if(!fs.existsSync(rawDataPath)){
-            fs.writeFileSync(rawDataPath, rawData);
-        }
+        // temporarily disable check if file exists to allow overwrite
+        // occasionally, the last modified date will change even if the data isn't changing
+        // this is to cater for that scenario.  we will implement logic to check
+        // if the data has updated later
+        
+//         if(!fs.existsSync(rawHTMLPath)){
+//             fs.writeFileSync(rawHTMLPath, RAW_HTML);
+//         }
+//         if(!fs.existsSync(rawDataPath)){
+//             fs.writeFileSync(rawDataPath, rawData);
+//         }
 });

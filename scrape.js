@@ -206,9 +206,9 @@ Promise.all([getDocId(), getGraphIdsAndPageContents()]).then(results => {
         // if the data has updated later
         
 //         if(!fs.existsSync(rawHTMLPath)){
-//             fs.writeFileSync(rawHTMLPath, RAW_HTML);
+            fs.writeFileSync(rawHTMLPath, RAW_HTML);
 //         }
 //         if(!fs.existsSync(rawDataPath)){
-//             fs.writeFileSync(rawDataPath, rawData);
+            fs.writeFileSync(rawDataPath, rawData);
 //         }
 });

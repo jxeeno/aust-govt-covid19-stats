@@ -153,7 +153,6 @@ const getRawData = async (graphs, ws) => {
                         if(graphObject && graphObject.subtitle){
                                 const matches = graphObject.subtitle.match(/([0-9]+\/[0-9]+\/[0-9]+)$/);
                                 if(matches){
-                                        console.log(matches[1])
                                         REPORT_DATE = moment(matches[1], 'D/M/YYYY')
                                 }
                         }
@@ -206,7 +205,7 @@ Promise.all([getDocId(), getGraphIdsAndPageContents()]).then(results => {
 
         rawData = JSON.stringify(data);
 
-        let formattedDate = moment(REPORT_DATE).format('YYYY-MM-DD');
+        let formattedDate = moment(REPORT_DATE || LAST_MODIFIED).format('YYYY-MM-DD');
 
         const rawDataPath = path.join(DATA_RAW_JSON_PATH_NEW, `${formattedDate}.json`);
         const rawHTMLPath = path.join(DATA_RAW_HTML_PATH_NEW, `${formattedDate}.html`);

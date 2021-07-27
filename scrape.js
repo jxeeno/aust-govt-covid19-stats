@@ -13,6 +13,7 @@ const QLIK_WS_PREFIX = 'wss://covid19-data.health.gov.au/app';
 let DOC_ID;
 let RAW_HTML;
 let LAST_MODIFIED;
+let REPORT_DATE;
 let GRAPH_IDS = [];
 let GRAPHS;
 let DOC_HANDLER_ID = -1;
@@ -147,6 +148,15 @@ const getRawData = async (graphs, ws) => {
                                 ws.terminate();
                                 resolve(rawData);
                         }
+
+                        // pull out report date from subtitle
+                        if(graphObject && graphObject.subtitle){
+                                const matches = graphObject.subtitle.match(/([0-9]+\/[0-9]+\/[0-9]+)$/);
+                                if(matches){
+                                        console.log(matches[1])
+                                        REPORT_DATE = moment(matches[1], 'D/M/YYYY')
+                                }
+                        }
                 });
                 // request info for each of the graphs on the page,
                 // using the handle we created earlier
@@ -191,24 +201,16 @@ Promise.all([getDocId(), getGraphIdsAndPageContents()]).then(results => {
         let data = {};
         data.docId = DOC_ID;
         data.lastModified = LAST_MODIFIED;
+        data.reportDate = REPORT_DATE;
         data.data = graphData;
 
         rawData = JSON.stringify(data);
 
-        let formattedDate = moment(LAST_MODIFIED).format('YYYY-MM-DD');
+        let formattedDate = moment(REPORT_DATE).format('YYYY-MM-DD');
 
         const rawDataPath = path.join(DATA_RAW_JSON_PATH_NEW, `${formattedDate}.json`);
         const rawHTMLPath = path.join(DATA_RAW_HTML_PATH_NEW, `${formattedDate}.html`);
-
-        // temporarily disable check if file exists to allow overwrite
-        // occasionally, the last modified date will change even if the data isn't changing
-        // this is to cater for that scenario.  we will implement logic to check
-        // if the data has updated later
         
-//         if(!fs.existsSync(rawHTMLPath)){
-            fs.writeFileSync(rawHTMLPath, RAW_HTML);
-//         }
-//         if(!fs.existsSync(rawDataPath)){
-            fs.writeFileSync(rawDataPath, rawData);
-//         }
+        fs.writeFileSync(rawHTMLPath, RAW_HTML);
+        fs.writeFileSync(rawDataPath, rawData);
 });

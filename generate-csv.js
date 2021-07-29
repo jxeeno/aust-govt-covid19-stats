@@ -72,7 +72,7 @@ const generateCsv = async () => {
                 }else if(['tests', 'source', 'cases', 'caseshospital'].includes(data.type) && SUFFIX_MAPPING[k] && entry.Jurisdiction){
                     key = `${entry.Jurisdiction.toUpperCase().slice(0, 3)}_${SUFFIX_MAPPING[k]}`;
                     value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
-                }else if(data.type === "casessage" && SUFFIX_MAPPING[k] && entry["Age Group"]){
+                }else if(data.type === "casesage" && SUFFIX_MAPPING[k] && entry["Age Group"]){
                     key = `AUS_CASES_AGE_${entry["Age Group"].toUpperCase().replace("-","_")}_SEX_${SUFFIX_MAPPING[k]}`;
                     value = isNumber(entry[k]) ? toNumber(entry[k]) : entry[k];
                 }else if(data.type === "deathsage" && SUFFIX_MAPPING[k] && entry["Age Group"]){

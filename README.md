@@ -65,3 +65,7 @@ You can try and fix it and submit a PR.  Or raise an issue and I'll have a look 
 Yeah, it's spaghetti code because it's basically disposable code. I expect to need to rewrite this every few days.
 
 Having said that, you're welcome to raise a PR if you want to make it better! :)
+
+## Data issues
+
+* No data was provided by the Department of Health on 31st July 2021.  We have populated values from 30th July 2021 instead.

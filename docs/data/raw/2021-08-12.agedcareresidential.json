@@ -4,9 +4,9 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Active": "32",
-            "Recovered": "1366",
-            "Deaths": "685"
+            "Active": "47",
+            "Recovered": "1374",
+            "Deaths": "687"
         },
         {
             "Jurisdiction": "ACT",
@@ -16,9 +16,9 @@
         },
         {
             "Jurisdiction": "NSW",
-            "Active": "29",
-            "Recovered": "33",
-            "Deaths": "28"
+            "Active": "47",
+            "Recovered": "38",
+            "Deaths": "30"
         },
         {
             "Jurisdiction": "NT",
@@ -46,8 +46,8 @@
         },
         {
             "Jurisdiction": "VIC",
-            "Active": "3",
-            "Recovered": "1333",
+            "Active": "0",
+            "Recovered": "1336",
             "Deaths": "655"
         },
         {

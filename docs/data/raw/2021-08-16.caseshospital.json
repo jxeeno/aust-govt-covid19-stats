@@ -4,8 +4,8 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Not in ICU": "357",
-            "ICU": "66"
+            "Not in ICU": "372",
+            "ICU": "67"
         },
         {
             "Jurisdiction": "ACT",
@@ -14,12 +14,12 @@
         },
         {
             "Jurisdiction": "NSW",
-            "Not in ICU": "317",
-            "ICU": "62"
+            "Not in ICU": "328",
+            "ICU": "64"
         },
         {
             "Jurisdiction": "NT",
-            "Not in ICU": "2",
+            "Not in ICU": "3",
             "ICU": "0"
         },
         {
@@ -29,8 +29,8 @@
         },
         {
             "Jurisdiction": "SA",
-            "Not in ICU": "1",
-            "ICU": "1"
+            "Not in ICU": "3",
+            "ICU": "0"
         },
         {
             "Jurisdiction": "TAS",
@@ -39,12 +39,12 @@
         },
         {
             "Jurisdiction": "VIC",
-            "Not in ICU": "3",
+            "Not in ICU": "5",
             "ICU": "1"
         },
         {
             "Jurisdiction": "WA",
-            "Not in ICU": "1",
+            "Not in ICU": "0",
             "ICU": "1"
         }
     ]

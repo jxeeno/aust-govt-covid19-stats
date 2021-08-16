@@ -24,8 +24,8 @@
         },
         {
             "Age Group": "40-49",
-            "Male": "2",
-            "Female": "1"
+            "Male": "3",
+            "Female": "2"
         },
         {
             "Age Group": "50-59",
@@ -39,17 +39,17 @@
         },
         {
             "Age Group": "70-79",
-            "Male": "104",
-            "Female": "57"
+            "Male": "106",
+            "Female": "60"
         },
         {
             "Age Group": "80-89",
-            "Male": "191",
-            "Female": "203"
+            "Male": "196",
+            "Female": "205"
         },
         {
             "Age Group": "90+",
-            "Male": "119",
+            "Male": "120",
             "Female": "206"
         }
     ]

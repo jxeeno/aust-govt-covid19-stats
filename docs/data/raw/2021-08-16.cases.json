@@ -4,51 +4,51 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Active cases^": "7000",
-            "Locally acquired last 24 hours": "436",
-            "Overseas acquired last 24 hours": "3",
-            "Under investigation last 24 hours": "7",
-            "Locally acquired last 7 days": "2738",
-            "Overseas acquired last 7 days": "15",
-            "Under investigation last 7 days": "19"
+            "Active cases^": "7467",
+            "Locally acquired last 24 hours": "506",
+            "Overseas acquired last 24 hours": "4",
+            "Under investigation last 24 hours": "14",
+            "Locally acquired last 7 days": "2945",
+            "Overseas acquired last 7 days": "17",
+            "Under investigation last 7 days": "33"
         },
         {
             "Jurisdiction": "ACT",
-            "Active cases^": "9",
-            "Locally acquired last 24 hours": "0",
+            "Active cases^": "28",
+            "Locally acquired last 24 hours": "10",
             "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "3",
-            "Locally acquired last 7 days": "4",
+            "Under investigation last 24 hours": "9",
+            "Locally acquired last 7 days": "14",
             "Overseas acquired last 7 days": "0",
-            "Under investigation last 7 days": "5"
+            "Under investigation last 7 days": "14"
         },
         {
             "Jurisdiction": "NSW",
-            "Active cases^": "6634",
-            "Locally acquired last 24 hours": "415",
+            "Active cases^": "7080",
+            "Locally acquired last 24 hours": "478",
             "Overseas acquired last 24 hours": "2",
             "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "2575",
+            "Locally acquired last 7 days": "2769",
             "Overseas acquired last 7 days": "12",
             "Under investigation last 7 days": "0"
         },
         {
             "Jurisdiction": "NT",
-            "Active cases^": "2",
-            "Locally acquired last 24 hours": "0",
+            "Active cases^": "3",
+            "Locally acquired last 24 hours": "1",
             "Overseas acquired last 24 hours": "0",
             "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "0",
+            "Locally acquired last 7 days": "1",
             "Overseas acquired last 7 days": "0",
             "Under investigation last 7 days": "0"
         },
         {
             "Jurisdiction": "QLD",
-            "Active cases^": "165",
+            "Active cases^": "145",
             "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "1",
+            "Overseas acquired last 24 hours": "0",
             "Under investigation last 24 hours": "0",
-            "Locally acquired last 7 days": "33",
+            "Locally acquired last 7 days": "29",
             "Overseas acquired last 7 days": "3",
             "Under investigation last 7 days": "1"
         },
@@ -74,22 +74,22 @@
         },
         {
             "Jurisdiction": "VIC",
-            "Active cases^": "185",
-            "Locally acquired last 24 hours": "21",
+            "Active cases^": "205",
+            "Locally acquired last 24 hours": "17",
             "Overseas acquired last 24 hours": "0",
-            "Under investigation last 24 hours": "4",
-            "Locally acquired last 7 days": "126",
+            "Under investigation last 24 hours": "5",
+            "Locally acquired last 7 days": "132",
             "Overseas acquired last 7 days": "0",
-            "Under investigation last 7 days": "13"
+            "Under investigation last 7 days": "18"
         },
         {
             "Jurisdiction": "WA",
-            "Active cases^": "3",
+            "Active cases^": "4",
             "Locally acquired last 24 hours": "0",
-            "Overseas acquired last 24 hours": "0",
+            "Overseas acquired last 24 hours": "2",
             "Under investigation last 24 hours": "0",
             "Locally acquired last 7 days": "0",
-            "Overseas acquired last 7 days": "0",
+            "Overseas acquired last 7 days": "2",
             "Under investigation last 7 days": "0"
         }
     ]

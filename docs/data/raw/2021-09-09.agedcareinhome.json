@@ -4,7 +4,7 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Active": "6",
+            "Active": "7",
             "Recovered": "73",
             "Deaths": "9"
         },
@@ -16,7 +16,7 @@
         },
         {
             "Jurisdiction": "NSW",
-            "Active": "4",
+            "Active": "5",
             "Recovered": "13",
             "Deaths": "1"
         },

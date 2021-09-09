@@ -4,9 +4,9 @@
     "entries": [
         {
             "Jurisdiction": "Australia",
-            "Active": "165",
+            "Active": "170",
             "Recovered": "1385",
-            "Deaths": "701"
+            "Deaths": "702"
         },
         {
             "Jurisdiction": "ACT",
@@ -16,8 +16,8 @@
         },
         {
             "Jurisdiction": "NSW",
-            "Active": "175",
-            "Recovered": "39",
+            "Active": "171",
+            "Recovered": "49",
             "Deaths": "44"
         },
         {

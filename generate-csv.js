@@ -18,6 +18,7 @@ const SUFFIX_MAPPING = {
     'Locally acquired last 7 days': 'CASES_LOCAL_LAST_7D',
     'Overseas acquired last 7 days': 'CASES_OVERSEAS_ACQUIRED_LAST_7D',
     'Under investigation last 7 days': 'CASES_UNDER_INVESTIGATION_LAST_7D',
+    '\'Under investigation last 24 hours*\'': 'CASES_UNDER_INVESTIGATION_LAST_7D',
 
     "Tests in last 7 days": "TESTS_LAST_7D",
     "Tests in last 7 days per 100,000 population": "TESTS_PER_100K_LAST_7D",

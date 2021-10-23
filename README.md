@@ -71,5 +71,6 @@ Having said that, you're welcome to raise a PR if you want to make it better! :)
 Department of Health occasionally forgets to update the dashboard.  When this occurs, we don't have valid data for that day and omit it from the dataset.  The applies to the following days:
 
 * 31st July 2021
+* 6th Oct 2021
 * 13th Oct 2021
 * 22nd Oct 2021

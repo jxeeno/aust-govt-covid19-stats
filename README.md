@@ -68,7 +68,7 @@ Having said that, you're welcome to raise a PR if you want to make it better! :)
 
 ## Data issues
 
-Data is missing for the following days and is omitted in the dataset for the following days:
+Department of Health occasionally forgets to update the dashboard.  When this occurs, we don't have valid data for that day and omit it from the dataset.  The applies to the following days:
 
 * 31st July 2021
 * 13th Oct 2021

@@ -68,4 +68,8 @@ Having said that, you're welcome to raise a PR if you want to make it better! :)
 
 ## Data issues
 
-* No data was provided by the Department of Health on 31st July 2021.  We have populated values from 30th July 2021 instead.
+Data is missing for the following days and is omitted in the dataset for the following days:
+
+* 31st July 2021
+* 13th Oct 2021
+* 22nd Oct 2021

@@ -8,7 +8,7 @@ const RAW_JSON_DATA_PATH_NEW = 'docs/data/raw-new/';
 
 const getSaveTableData = async (rawData, graphId, type) => {
         return new Promise((resolve, reject) => {
-                let dateStr = moment(rawData.lastModified).format('YYYY-MM-DD');
+                let dateStr = moment(rawData.reportDate||rawData.lastModified).format('YYYY-MM-DD');
                 let graphObject = rawData.data[graphId];
 
                 let dimensions = graphObject.qHyperCube.qDimensionInfo.map(item => item.qFallbackTitle);

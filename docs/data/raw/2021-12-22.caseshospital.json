@@ -1,0 +1,51 @@
+{
+    "asAtDate": "2021-12-22",
+    "type": "caseshospital",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Not in ICU": "766",
+            "ICU": "112"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Not in ICU": "3",
+            "ICU": "0"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Not in ICU": "262",
+            "ICU": "40"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Not in ICU": "93",
+            "ICU": "1"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Not in ICU": "79",
+            "ICU": "1"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Not in ICU": "5",
+            "ICU": "0"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Not in ICU": "0",
+            "ICU": "0"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Not in ICU": "324",
+            "ICU": "70"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Not in ICU": "0",
+            "ICU": "0"
+        }
+    ]
+}

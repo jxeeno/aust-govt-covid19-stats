@@ -74,3 +74,5 @@ Department of Health occasionally forgets to update the dashboard.  When this oc
 * 6th Oct 2021
 * 13th Oct 2021
 * 22nd Oct 2021
+* 25th Dec 2021
+* 18th Jan 2022

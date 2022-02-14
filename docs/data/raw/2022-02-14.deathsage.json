@@ -1,0 +1,56 @@
+{
+    "asAtDate": "2022-02-14",
+    "type": "deathsage",
+    "entries": [
+        {
+            "Age Group": "0-9",
+            "Male": "1",
+            "Female": "4"
+        },
+        {
+            "Age Group": "10-19",
+            "Male": "1",
+            "Female": "1"
+        },
+        {
+            "Age Group": "20-29",
+            "Male": "9",
+            "Female": "3"
+        },
+        {
+            "Age Group": "30-39",
+            "Male": "28",
+            "Female": "16"
+        },
+        {
+            "Age Group": "40-49",
+            "Male": "48",
+            "Female": "28"
+        },
+        {
+            "Age Group": "50-59",
+            "Male": "123",
+            "Female": "79"
+        },
+        {
+            "Age Group": "60-69",
+            "Male": "270",
+            "Female": "135"
+        },
+        {
+            "Age Group": "70-79",
+            "Male": "609",
+            "Female": "327"
+        },
+        {
+            "Age Group": "80-89",
+            "Male": "931",
+            "Female": "647"
+        },
+        {
+            "Age Group": "90+",
+            "Male": "480",
+            "Female": "588"
+        }
+    ]
+}

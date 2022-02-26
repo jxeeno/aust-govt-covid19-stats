@@ -1,0 +1,96 @@
+{
+    "asAtDate": "2022-02-26",
+    "type": "cases",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Active cases^": "205455",
+            "Locally acquired last 24 hours*": "3466",
+            "Overseas acquired last 24 hours": "9",
+            "'Under investigation last 24 hours*'": "18934",
+            "Locally acquired last 7 days": "21881",
+            "Overseas acquired last 7 days": "62",
+            "Under investigation last 7 days": "138669"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Active cases^": "3922",
+            "Locally acquired last 24 hours*": "478",
+            "Overseas acquired last 24 hours": "0",
+            "'Under investigation last 24 hours*'": "0",
+            "Locally acquired last 7 days": "4459",
+            "Overseas acquired last 7 days": "0",
+            "Under investigation last 7 days": "0"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Active cases^": "98491",
+            "Locally acquired last 24 hours*": "0",
+            "Overseas acquired last 24 hours": "0",
+            "'Under investigation last 24 hours*'": "7017",
+            "Locally acquired last 7 days": "1",
+            "Overseas acquired last 7 days": "0",
+            "Under investigation last 7 days": "51051"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Active cases^": "4835",
+            "Locally acquired last 24 hours*": "7",
+            "Overseas acquired last 24 hours": "0",
+            "'Under investigation last 24 hours*'": "610",
+            "Locally acquired last 7 days": "178",
+            "Overseas acquired last 7 days": "0",
+            "Under investigation last 7 days": "4590"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Active cases^": "33256",
+            "Locally acquired last 24 hours*": "217",
+            "Overseas acquired last 24 hours": "0",
+            "'Under investigation last 24 hours*'": "4621",
+            "Locally acquired last 7 days": "1537",
+            "Overseas acquired last 7 days": "4",
+            "Under investigation last 7 days": "35094"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Active cases^": "15353",
+            "Locally acquired last 24 hours*": "1643",
+            "Overseas acquired last 24 hours": "8",
+            "'Under investigation last 24 hours*'": "37",
+            "Locally acquired last 7 days": "10572",
+            "Overseas acquired last 7 days": "50",
+            "Under investigation last 7 days": "186"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Active cases^": "4730",
+            "Locally acquired last 24 hours*": "0",
+            "Overseas acquired last 24 hours": "0",
+            "'Under investigation last 24 hours*'": "792",
+            "Locally acquired last 7 days": "2",
+            "Overseas acquired last 7 days": "0",
+            "Under investigation last 7 days": "5278"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Active cases^": "40968",
+            "Locally acquired last 24 hours*": "323",
+            "Overseas acquired last 24 hours": "0",
+            "'Under investigation last 24 hours*'": "5551",
+            "Locally acquired last 7 days": "2146",
+            "Overseas acquired last 7 days": "0",
+            "Under investigation last 7 days": "41213"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Active cases^": "3900",
+            "Locally acquired last 24 hours*": "798",
+            "Overseas acquired last 24 hours": "1",
+            "'Under investigation last 24 hours*'": "306",
+            "Locally acquired last 7 days": "2986",
+            "Overseas acquired last 7 days": "8",
+            "Under investigation last 7 days": "1257"
+        }
+    ]
+}

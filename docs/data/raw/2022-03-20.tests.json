@@ -1,0 +1,60 @@
+{
+    "asAtDate": "2022-03-20",
+    "type": "tests",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Tests in last 7 days": "680189",
+            "Tests in last 7 days per 100,000 population": "2682.3921062099325",
+            "Total tests": "65300155"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Tests in last 7 days": "18722",
+            "Tests in last 7 days per 100,000 population": "4393.299057371953",
+            "Total tests": "952194"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Tests in last 7 days": "296502",
+            "Tests in last 7 days per 100,000 population": "3667.0957490174974",
+            "Total tests": "29374198"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Tests in last 7 days": "6133",
+            "Tests in last 7 days per 100,000 population": "2492.0460132546127",
+            "Total tests": "734057"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Tests in last 7 days": "48432",
+            "Tests in last 7 days per 100,000 population": "951.0407997916947",
+            "Total tests": "6965217"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Tests in last 7 days": "81444",
+            "Tests in last 7 days per 100,000 population": "4647.765313075307",
+            "Total tests": "4075540"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Tests in last 7 days": "9010",
+            "Tests in last 7 days per 100,000 population": "1685.3753935192547",
+            "Total tests": "583824"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Tests in last 7 days": "115791",
+            "Tests in last 7 days per 100,000 population": "1756.0363512612598",
+            "Total tests": "19818623"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Tests in last 7 days": "104155",
+            "Tests in last 7 days per 100,000 population": "3972.5978283920126",
+            "Total tests": "2796502"
+        }
+    ]
+}

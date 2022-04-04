@@ -1,0 +1,51 @@
+{
+    "asAtDate": "2022-04-04",
+    "type": "agedcareresidential",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Active and Recovered": "22686",
+            "Deaths": "1942"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Active and Recovered": "221",
+            "Deaths": "15"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Active and Recovered": "8856",
+            "Deaths": "619"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Active and Recovered": "92",
+            "Deaths": "4"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Active and Recovered": "4166",
+            "Deaths": "241"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Active and Recovered": "1490",
+            "Deaths": "93"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Active and Recovered": "255",
+            "Deaths": "7"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Active and Recovered": "6747",
+            "Deaths": "935"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Active and Recovered": "859",
+            "Deaths": "28"
+        }
+    ]
+}

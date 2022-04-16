@@ -1,0 +1,96 @@
+{
+    "asAtDate": "2022-04-16",
+    "type": "source",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Overseas": "11909",
+            "Locally acquired - contact of confirmed case": "903309",
+            "Locally acquired - unknown contact*": "301912",
+            "Locally acquired - interstate travel": "21866",
+            "Under investigation*": "3926882",
+            "Total cases": "5165878",
+            "Total deaths": "6762"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Overseas": "0",
+            "Locally acquired - contact of confirmed case": "92330",
+            "Locally acquired - unknown contact*": "0",
+            "Locally acquired - interstate travel": "0",
+            "Under investigation*": "0",
+            "Total cases": "92330",
+            "Total deaths": "47"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Overseas": "4408",
+            "Locally acquired - contact of confirmed case": "165433",
+            "Locally acquired - unknown contact*": "1319",
+            "Locally acquired - interstate travel": "0",
+            "Under investigation*": "1756419",
+            "Total cases": "1927579",
+            "Total deaths": "2606"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Overseas": "378",
+            "Locally acquired - contact of confirmed case": "22519",
+            "Locally acquired - unknown contact*": "6397",
+            "Locally acquired - interstate travel": "2889",
+            "Under investigation*": "24774",
+            "Total cases": "56957",
+            "Total deaths": "36"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Overseas": "1639",
+            "Locally acquired - contact of confirmed case": "17606",
+            "Locally acquired - unknown contact*": "7350",
+            "Locally acquired - interstate travel": "517",
+            "Under investigation*": "869867",
+            "Total cases": "896979",
+            "Total deaths": "798"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Overseas": "1956",
+            "Locally acquired - contact of confirmed case": "147259",
+            "Locally acquired - unknown contact*": "179246",
+            "Locally acquired - interstate travel": "9212",
+            "Under investigation*": "9341",
+            "Total cases": "347014",
+            "Total deaths": "298"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Overseas": "212",
+            "Locally acquired - contact of confirmed case": "64957",
+            "Locally acquired - unknown contact*": "11564",
+            "Locally acquired - interstate travel": "4500",
+            "Under investigation*": "37673",
+            "Total cases": "118906",
+            "Total deaths": "42"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Overseas": "1606",
+            "Locally acquired - contact of confirmed case": "243213",
+            "Locally acquired - unknown contact*": "5409",
+            "Locally acquired - interstate travel": "0",
+            "Under investigation*": "1188233",
+            "Total cases": "1438461",
+            "Total deaths": "2838"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Overseas": "1710",
+            "Locally acquired - contact of confirmed case": "149992",
+            "Locally acquired - unknown contact*": "90627",
+            "Locally acquired - interstate travel": "4748",
+            "Under investigation*": "40575",
+            "Total cases": "287652",
+            "Total deaths": "97"
+        }
+    ]
+}

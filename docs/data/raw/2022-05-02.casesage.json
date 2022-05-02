@@ -1,0 +1,56 @@
+{
+    "asAtDate": "2022-05-02",
+    "type": "casesage",
+    "entries": [
+        {
+            "Age Group": "0-9",
+            "Male": "167536",
+            "Female": "157389"
+        },
+        {
+            "Age Group": "10-19",
+            "Male": "207752",
+            "Female": "221585"
+        },
+        {
+            "Age Group": "20-29",
+            "Male": "317007",
+            "Female": "342276"
+        },
+        {
+            "Age Group": "30-39",
+            "Male": "262966",
+            "Female": "290773"
+        },
+        {
+            "Age Group": "40-49",
+            "Male": "198230",
+            "Female": "225353"
+        },
+        {
+            "Age Group": "50-59",
+            "Male": "154067",
+            "Female": "167221"
+        },
+        {
+            "Age Group": "60-69",
+            "Male": "102894",
+            "Female": "103684"
+        },
+        {
+            "Age Group": "70-79",
+            "Male": "57464",
+            "Female": "51887"
+        },
+        {
+            "Age Group": "80-89",
+            "Male": "23735",
+            "Female": "23939"
+        },
+        {
+            "Age Group": "90+",
+            "Male": "5615",
+            "Female": "9748"
+        }
+    ]
+}

@@ -1,0 +1,60 @@
+{
+    "asAtDate": "2022-05-24",
+    "type": "tests",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Tests in last 7 days": "604321",
+            "Tests in last 7 days per 100,000 population": "2383.199199070983",
+            "Total tests": "71359956"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Tests in last 7 days": "16338",
+            "Tests in last 7 days per 100,000 population": "3833.870312965653",
+            "Total tests": "1114063"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Tests in last 7 days": "206327",
+            "Tests in last 7 days per 100,000 population": "2551.8238143672997",
+            "Total tests": "31743981"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Tests in last 7 days": "4590",
+            "Tests in last 7 days per 100,000 population": "1865.072754090767",
+            "Total tests": "782339"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Tests in last 7 days": "58936",
+            "Tests in last 7 days per 100,000 population": "1157.303860598846",
+            "Total tests": "7516712"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Tests in last 7 days": "69662",
+            "Tests in last 7 days per 100,000 population": "3975.401837329355",
+            "Total tests": "4823698"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Tests in last 7 days": "7827",
+            "Tests in last 7 days per 100,000 population": "1464.088036079379",
+            "Total tests": "671182"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Tests in last 7 days": "126443",
+            "Tests in last 7 days per 100,000 population": "1917.5799877583531",
+            "Total tests": "20935504"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Tests in last 7 days": "114198",
+            "Tests in last 7 days per 100,000 population": "4355.650010145562",
+            "Total tests": "3772477"
+        }
+    ]
+}

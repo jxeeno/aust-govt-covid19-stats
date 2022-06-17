@@ -1,0 +1,60 @@
+{
+    "asAtDate": "2022-06-17",
+    "type": "tests",
+    "entries": [
+        {
+            "Jurisdiction": "Australia",
+            "Tests in last 7 days": "436380",
+            "Tests in last 7 days per 100,000 population": "1720.907376196749",
+            "Total tests": "73061559"
+        },
+        {
+            "Jurisdiction": "ACT",
+            "Tests in last 7 days": "12880",
+            "Tests in last 7 days per 100,000 population": "3022.41704192665",
+            "Total tests": "1157877"
+        },
+        {
+            "Jurisdiction": "NSW",
+            "Tests in last 7 days": "176990",
+            "Tests in last 7 days per 100,000 population": "2188.987853770318",
+            "Total tests": "32375307"
+        },
+        {
+            "Jurisdiction": "NT",
+            "Tests in last 7 days": "3927",
+            "Tests in last 7 days per 100,000 population": "1595.6733562776562",
+            "Total tests": "797353"
+        },
+        {
+            "Jurisdiction": "QLD",
+            "Tests in last 7 days": "45165",
+            "Tests in last 7 days per 100,000 population": "886.887960905845",
+            "Total tests": "7730629"
+        },
+        {
+            "Jurisdiction": "SA",
+            "Tests in last 7 days": "47184",
+            "Tests in last 7 days per 100,000 population": "2692.649655372345",
+            "Total tests": "5012233"
+        },
+        {
+            "Jurisdiction": "TAS",
+            "Tests in last 7 days": "6115",
+            "Tests in last 7 days per 100,000 population": "1143.8480057014697",
+            "Total tests": "695234"
+        },
+        {
+            "Jurisdiction": "VIC",
+            "Tests in last 7 days": "86441",
+            "Tests in last 7 days per 100,000 population": "1310.9269134852843",
+            "Total tests": "21275050"
+        },
+        {
+            "Jurisdiction": "WA",
+            "Tests in last 7 days": "57678",
+            "Tests in last 7 days per 100,000 population": "2199.908766223364",
+            "Total tests": "4017876"
+        }
+    ]
+}

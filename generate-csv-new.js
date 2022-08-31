@@ -7,6 +7,7 @@ const path = require("path");
 const DATA_CSV_PATH = "docs/data/all.csv";
 const DATA_JSON_PATH = "docs/data/all.json";
 const DATA_RAW_HTML_PATH_NEW = "docs/data/rawhtml-new/";
+const DATA_CSV_HISTORICAL = "docs/data/all-historical/";
 
 const isValidDate = (d) => {
     return d instanceof Date && !isNaN(d);
@@ -121,6 +122,10 @@ function main() {
 
             const csvString = Papa.unparse(entries);
             fs.writeFileSync(DATA_CSV_PATH, csvString);
+            fs.writeFileSync(
+                path.join(DATA_CSV_HISTORICAL, `all-${dateString}.csv`),
+                csvString
+            );
 
             const rawHTMLPath = path.join(
                 DATA_RAW_HTML_PATH_NEW,

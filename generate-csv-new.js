@@ -3,6 +3,7 @@ const Papa = require("papaparse");
 const request = require("request-promise");
 const fs = require("fs");
 const path = require("path");
+const moment = require('moment');
 
 const DATA_CSV_PATH = "docs/data/all.csv";
 const DATA_JSON_PATH = "docs/data/all.json";
@@ -79,13 +80,8 @@ function main() {
             if (!date || !isValidDate(dateObj)) {
                 return [];
             }
-
-            const month =
-                dateObj.getMonth() + 1 < 10
-                    ? `0${dateObj.getMonth() + 1}`
-                    : dateObj.getMonth() + 1;
-
-            const dateString = `${dateObj.getFullYear()}-${month}-${dateObj.getDate()}`;
+            
+            const dateString = moment(dateObj).format('YYYY-MM-DD');
 
             const entry = {
                 DATE: dateString,
